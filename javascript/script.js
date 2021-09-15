@@ -27,12 +27,10 @@ function sendmail() {
                 x.className = "show";
                 setTimeout(function() { x.className = x.className.replace("show", ""); }, 3000);
                 window.setTimeout(function() {
-
                     // Move to a new location or you can do something else
-                    window.location.href = "index";
-
+                    window.location.href = "index.html";
                 }, 5000);
-                // window.location.replace("index");
+
             } else {
                 console.error(message);
                 Swal.fire({
